@@ -1,0 +1,69 @@
+.header-content_container {
+  margin: 9rem;
+  margin-bottom: 4rem;
+}
+
+.header-content {
+  display: flex;
+  padding-top: 4rem;
+  padding-left: 0.5rem;
+  background-color: #F5F5F5;
+}
+
+.header-content_container-greet,
+.header-content_container-title {
+  color: #0c3658;
+}
+
+.header-content_container-title {
+  font-size: 48px;
+}
+
+.header-content_container-btn {
+  margin-top: 3rem;
+  padding: 6px 30px 6px 30px;
+  color: white;
+  background-color: #ff9c24;
+  border: none;
+  font-size: 12px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.header-content_container-designation {
+  font-weight: normal;
+  color: rgb(28, 28, 28);
+}
+
+.header-content_container-follow {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 11rem;
+  margin-left: 0.2rem;
+}
+
+.header-content_container-follow {
+  display: table;
+  white-space: nowrap;
+}
+.header-content_container-follow::after {
+  border-top: 1px solid black;
+  content: "";
+  display: table-cell;
+  position: relative;
+  top: 0.65rem;
+  width: 40%;
+}
+.header-content_container-follow::after {
+  left: 0.8rem;
+}
+
+.header-content_container-icon {
+    position: absolute;
+    bottom: 0rem;
+    left: 19rem;
+}
+.header-content_container-icon a {
+    padding: 0.5rem;
+    cursor: pointer;
+}

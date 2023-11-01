@@ -1,0 +1,36 @@
+
+.navbar-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.navbar-links_container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links_container p {
+    padding: 2rem;
+}
+
+.navbar-links_logo h1{
+    color: #FF9C24;
+    font-size: 28px;
+}
+
+.navbar {
+    
+}
+
+.navbar-links_container p a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+#active {
+    color: #FF9C24;
+}
